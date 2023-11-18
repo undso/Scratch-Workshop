@@ -4,7 +4,7 @@
 
 # Die Funktion update_system bringt das System mittels apt auf den aktuellen Stand
 update_system() {
-  sudo apt get update && sudo apt get upgrade -y
+  sudo apt update && sudo apt upgrade -y
 }
 
 # Entrypoint
